@@ -12,7 +12,7 @@ const skillCategories = [
   },
   {
     title: 'Tools',
-    items: ['Excel (Advanced)', 'Python', 'SQL', 'Bloomberg (basic)'],
+    items: ['Excel (Advanced)', 'PowerPoint', 'Python', 'SQL', 'Bloomberg (basic)'],
   },
   {
     title: 'Languages',
@@ -36,7 +36,7 @@ function Skills({ isVisible }) {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h2
           className="text-[32px] sm:text-[40px] font-bold text-white mb-12"
           style={{ fontFamily: "'Inter', system-ui, sans-serif" }}

@@ -41,14 +41,6 @@ function Hero() {
         }}
       />
 
-      {/* Market data ticker - top right, very low opacity */}
-      <div className="absolute top-8 right-6 sm:right-12 lg:right-24 font-mono text-[10px] sm:text-xs text-secondary opacity-20">
-        <span className="text-gold/80">FTSE 100:</span> 8,432{' '}
-        <span className="text-emerald-500/80">▲ 0.3%</span>
-        <span className="mx-3 opacity-50">|</span>
-        <span className="text-gold/80">GBP/USD:</span> 1.2641
-      </div>
-
       <div className="relative z-10 w-full max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-24">
         <div className="flex flex-col">
           {/* Name - center-left, 72px+, bold, tight tracking */}

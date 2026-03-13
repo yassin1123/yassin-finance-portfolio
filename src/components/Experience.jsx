@@ -102,7 +102,7 @@ function Experience({ isVisible }) {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}
     >
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h2
           className="text-[32px] sm:text-[40px] font-bold text-white mb-12"
           style={{ fontFamily: "'Inter', system-ui, sans-serif" }}
@@ -110,7 +110,7 @@ function Experience({ isVisible }) {
           Experience
         </h2>
 
-        <div className="relative">
+        <div className="relative max-w-3xl mx-auto">
           {/* Timeline line */}
           <div className="absolute left-4 sm:left-6 top-0 bottom-0 w-px bg-border" />
 

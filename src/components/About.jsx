@@ -53,10 +53,11 @@ function About({ isVisible }) {
   return (
     <section
       id="about"
-      className={`py-24 px-6 sm:px-12 lg:px-24 max-w-4xl mx-auto transition-all duration-700 ${
+      className={`py-24 px-6 sm:px-12 lg:px-24 transition-all duration-700 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}
     >
+      <div className="max-w-6xl mx-auto">
       <h2
         className="text-[32px] sm:text-[40px] font-bold text-white mb-8"
         style={{ fontFamily: "'Inter', system-ui, sans-serif" }}
@@ -83,6 +84,7 @@ function About({ isVisible }) {
         {stats.map((stat) => (
           <StatBox key={stat.label} stat={stat} isVisible={isVisible} />
         ))}
+      </div>
       </div>
     </section>
   );
