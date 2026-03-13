@@ -72,8 +72,8 @@ function Hero() {
               View Projects
             </button>
             <a
-              href="/cv.pdf"
-              download="Yassin_Al-Yassin_CV.pdf"
+              href="/Yassin_Al-Yassin_IB_CV.pdf"
+              download="Yassin_Al-Yassin_IB_CV.pdf"
               className="px-6 py-3 border border-gold text-gold font-semibold text-sm rounded-sm hover:bg-gold/10 transition-colors"
             >
               Download CV
