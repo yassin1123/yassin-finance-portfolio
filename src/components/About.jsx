@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 const stats = [
   { value: 2, suffix: '+', label: 'Years Experience', isNumeric: true },
-  { value: 5, suffix: '+', label: 'Financial Models', isNumeric: true },
+  { value: 3, suffix: '+', label: 'Financial Models', isNumeric: true },
   { value: 3, suffix: '', label: 'Sectors Covered', isNumeric: true },
   { value: 'First Class', suffix: '', label: 'Predicted', isNumeric: false },
 ];
@@ -67,13 +67,15 @@ function About({ isVisible }) {
       <div className="space-y-6 text-secondary mb-16 text-base leading-[1.7]" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
         <p>
           Second-year Electronic Engineering student at the University of Southampton with a
-          predicted First Class. Finance background spanning investment analysis, business risk,
-          and management consulting.
+          predicted First Class. Finance background spanning leveraged buyout analysis, DCF
+          valuation, unit economics modelling, investment banking, and management consulting.
         </p>
         <p>
-          Experience includes an internship at American Express (ICS Business Risk) and active
-          consulting work at Blackmont Consulting on a competitive analysis project. Member of 180
-          Degrees Consulting as Vice President.
+          Experience includes an internship at American Express (ICS Business Risk), active
+          consulting at Blackmont Consulting, and Head of Events at the University of Southampton
+          Trading and Investment Society; where I run modelling workshops and have brought in
+          professionals from JPMorgan, Schroders, and Barclays. All financial models on this site
+          are built independently from public filings and market data.
         </p>
       </div>
 
