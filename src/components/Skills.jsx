@@ -8,6 +8,7 @@ const skillCategories = [
       'Trading Comps',
       'Precedent Transactions',
       'Unit Economics',
+      'Credit Analysis',
     ],
   },
   {

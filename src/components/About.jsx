@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 
 const stats = [
-  { value: 2, suffix: '+', label: 'Years Experience', isNumeric: true },
-  { value: 3, suffix: '+', label: 'Financial Models', isNumeric: true },
-  { value: 3, suffix: '', label: 'Sectors Covered', isNumeric: true },
+  { value: 1, suffix: '+', label: 'Years Experience', isNumeric: true },
+  { value: 6, suffix: '+', label: 'Financial Models', isNumeric: true },
+  { value: 5, suffix: '', label: 'Sectors Covered', isNumeric: true },
   { value: 'First Class', suffix: '', label: 'Predicted', isNumeric: false },
 ];
 
